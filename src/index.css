@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif;
+}
+
+.header{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(to right, rgba(173, 216, 230, 1) 0%, rgba(240, 248, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+.btn{
+  background-color: #1250EE;
+  border: none;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.header div{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  width: 50%;
+}
+
+.header-appoinment-btn{
+  width: 30%; 
+  height: 2.5rem;
+  font-size: 1rem;
+}
+
+section {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: fit-content;
+  background: linear-gradient(to right, rgba(173, 216, 230, 1) 0%, rgba(240, 248, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+#profile{
+  background: linear-gradient(to right, rgba(173, 216, 230, 1) 0%, rgba(240, 248, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+.nav-links{
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: black;
+}
+
+#profile{
+  padding: 8rem;
+}
+
+
+
+.profile-info-container {
+  width: 40%;
+  padding: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
+.profile-title{
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.profile-info-text{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6E7385;
+}
+
+.profile-appoinment-btn{
+  width: 50%;
+  height: 2.5rem;
+  font-size: 1rem;
+}
+
+.profile-numarical-data{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-numarical-data div {
+  width: 30%;
+  height: 5rem;
+  position: relative;
+
+}
+
+.numarical-data{
+  position: absolute;
+  font-size: 2.5rem;
+  font-weight: 500;
+  z-index: 1;
+}
+
+.numarical-data-line{
+  width: 70%;
+  height: 6px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 35px;
+  left: 0px;
+}
+
+.experience-numarical-data .numarical-data-line{
+  background-color: #D3992F;
+}
+
+.clint-location-numarical-data .numarical-data-line{
+  background-color: #7F53C8;
+}
+
+.patient-satisfaction-numarical-data .numarical-data-line{
+  background-color: #0695A5;
+}
+
+.numarical-data-description{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  font-size: 0.8rem;
+}
+
+
+.profile-pic-container{
+  width: 60%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic{
+  width: 50%;
+}
+
+#about{
+  padding: 8rem;
+}
+
+.about-pic-container , .about-info-container{
+  width: 50%;
+}
+
+.about-pic-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-pic{
+  width: 60%;
+}
+
+.about-info-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-title{
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.about-info-text{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6E7385;
+}
+
+#contact{
+  padding: 0rem;
+  position: relative;
+  color: white;
+}
+
+.contact{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 80%;
+  background-color: rgb(60, 124, 146);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.contact-pic-container , .contact-info-container{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.contact-info-container{
+  padding: 6rem;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.contact-pic{
+  width: 60%;
+  position: absolute;
+  bottom: 0px;
+}
+
+
+.contact-title{
+  font-size: 3rem;
+  font-weight: 500; 
+}
+
+.contact-info-text{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.contact-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 3rem;
+
+}
+
+.contact-card{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+}
+
+
+.contact-card div{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.phone-pic , .email-pic, .location-pic {
+  width: 3rem;
+  margin-right: 0.2rem;
+}
+
+
