@@ -1,10 +1,12 @@
 import React from 'react'
+import AppointmentForm from '../components/AppointmentForm'
+
 
 const BookingPage = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <AppointmentForm />
+    </>
   )
 }
 

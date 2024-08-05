@@ -1,5 +1,7 @@
 import React from "react";
 import doctorImage from "../assets/doctor.png";
+import {Link} from 'react-router-dom'
+
 
 const Profile = () => {
   return (
@@ -10,9 +12,9 @@ const Profile = () => {
           We help patients live a healthy, longer life{" "}
         </p>
         <p className="profile-info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut officiis ipsam libero beatae, sint recusandae non enim explicabo omnis nulla. Assumenda ullam consequuntur eaque temporibus ut quas delectus ratione omnis?</p>
-        <button className="btn profile-appoinment-btn">
+        <Link to='/appointmentForm'><button className="btn profile-appoinment-btn">
           Request an Appoinment
-        </button>
+        </button></Link>
         <div className="profile-numarical-data">
           <div className="experience-numarical-data">
             <span className="numarical-data">15+</span>

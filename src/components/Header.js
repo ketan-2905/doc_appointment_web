@@ -1,5 +1,6 @@
 import React from "react";
 import Nav  from './Nav';
+import {Link} from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -7,9 +8,9 @@ const Header = () => {
     <h1>Dr. Sarah Jones</h1>
     <div>
     <Nav />
-    <button className="btn header-appoinment-btn">
-      Book an Appointmentt
-    </button>
+    <Link to='/appointmentForm'><button className="btn header-appoinment-btn">
+      Book an Appointment
+    </button></Link>
     </div>
   </header>
   );
